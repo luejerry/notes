@@ -17,20 +17,12 @@ git config [--global] user.name "Name"
 `git remote add upstream https://repository.git`
 
 ## Update from repository
-
-### Origin
-`git pull`
-
-### Upstream
-`git pull upstream master`
+* origin: `git pull`
+* upstream: `git pull upstream master`
 
 ## Commit to repository
-
-### Origin
-`git push origin master`
-
-### Upstream
-`git push upstream master`
+* origin: `git push origin master`
+* upstream: `git push upstream master`
 
 ## Commit all changes
 ~~~~
