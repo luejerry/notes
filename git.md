@@ -29,3 +29,15 @@ git config [--global] user.name "Name"
 git add .
 git commit -m "Commit message"
 ~~~~
+
+## View available branches
+* local: `git branch`
+* remote: `git branch -r`
+
+## Delete branches
+* local: `git branch -d branch-name`
+* remote: `git branch -r -d branch-name`
+
+## Create new brach
+`git checkout -b branch-name`
+
