@@ -14,9 +14,9 @@ Deployed on Raspbian 8 Jessie running on Raspberry Pi 3.
 3.  Make the following changes to `server.conf`:
 
     * `port 1194` to desired port
-    * `dh dh1024.pem` to `dh dh2048.pem
+    * `dh dh1024.pem` to `dh dh2048.pem`
     * Uncomment `;push "redirect-gateway def1 bypass-dhcp`
-    * Uncomment `;push "dhcp-option DNS ..."
+    * Uncomment `;push "dhcp-option DNS ..."`
     * Uncomment `;user nobody` and `;group nogroup`
     * Uncomment `;log-append openvpn.log`
 
