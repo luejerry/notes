@@ -56,3 +56,12 @@ git commit -m "Commit message"
 ### Create new branch
 `git checkout -b branch-name`
 
+
+## Reverting
+### Discard uncommitted changes
+`git reset --hard`
+
+### Revert to previous commit
+`git reset --hard <commit>`
+
+`<commit>` can be part of a commit hash, or `HEAD~1` for previous commit.
