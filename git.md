@@ -1,22 +1,24 @@
 # Notes on Git
 
-## Set identity
+## Setup
+
+### Set identity
 
 ~~~~
 git config [--global] user.email "user@email.com"
 git config [--global] user.name "Name"
 ~~~~
 
-## Download repository
+### Download repository
 `git clone https://repository.git`
 
-## View remote repositories
+### View remote repositories
 `git remote -v`
 
-## Add upstream repository
+### Add upstream repository
 `git remote add upstream https://repository.git`
 
-## Update from repository
+## Updating
 ### Without review
 * origin: `git pull`
 * upstream: `git pull upstream master`
@@ -28,15 +30,18 @@ git log ..origin/master
 git merge origin/master
 ~~~~
 
-## Commit to repository
-* origin: `git push origin master`
-* upstream: `git push upstream master`
+## Committing
 
-## Commit all changes to local
+### Commit all changes to local
 ~~~~
 git add .
 git commit -m "Commit message"
 ~~~~
+
+### Commit to remote repository
+* origin: `git push origin master`
+* upstream: `git push upstream master`
+
 
 ## Branch operations
 
