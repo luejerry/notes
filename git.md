@@ -32,20 +32,22 @@ git merge origin/master
 * origin: `git push origin master`
 * upstream: `git push upstream master`
 
-## Commit all changes
+## Commit all changes to local
 ~~~~
 git add .
 git commit -m "Commit message"
 ~~~~
 
-## View available branches
+## Branch operations
+
+### View available branches
 * local: `git branch`
 * remote: `git branch -r`
 
-## Delete branches
+### Delete branches
 * local: `git branch -d branch-name`
 * remote: `git branch -r -d branch-name`
 
-## Create new brach
+### Create new branch
 `git checkout -b branch-name`
 
