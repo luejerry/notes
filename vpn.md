@@ -67,7 +67,7 @@ Deployed on Raspbian 8 Jessie running on Raspberry Pi 3.
 
         cp /etc/openvpn/easy-rsa/keys/{server.crt,server.key,ca.crt} /etc/openvpn
 
-## Client certificate and key
+## Create client certificates
 
 In this configuration, each client must have a unique certificate and key
 generated manually by the server. Change `client1` in directions to the desired
