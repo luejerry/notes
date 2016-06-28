@@ -20,12 +20,15 @@
 ### Selecting text
 *   `v` Select mode
 *   `V` Select line mode
+
 ### Cutting text
 *   `dd` Cut line
 *   `x` Cut selected text
+
 ### Copying text
 *   `yy` Copy line
 *   `y` Copy selected text
+
 ### Pasting text
 *   `p` Paste after cursor
 *   `P` Paste before cursor
@@ -37,6 +40,7 @@
 *   `:sp` Horizontal split
 *   `:sp ~/file.txt` Open file in split
 *   `:q` Close split
+
 ### Switching splits
 Press `Ctrl-w` to enter split select mode, then use `hjkl` to select the left,
 up, down, or right of the current split.
