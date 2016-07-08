@@ -48,6 +48,7 @@ git commit -m "Commit message"
 ### View available branches
 * local: `git branch`
 * remote: `git branch -r`
+* upstream: `git remote show upstream`
 
 ### Delete branches
 * local: `git branch -d branch-name`
