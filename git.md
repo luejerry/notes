@@ -66,3 +66,8 @@ git commit -m "Commit message"
 `git reset --hard <commit>`
 
 `<commit>` can be part of a commit hash, or `HEAD~1` for previous commit.
+
+## Untrack repository files
+`git rm -r --cached <filename>`
+`git add -u`
+Commit, pull, then push to remote.
