@@ -61,6 +61,8 @@ git commit -m "Commit message"
 ## Reverting
 ### Discard uncommitted changes
 `git reset --hard`
+or
+`git checkout -p`
 
 ### Revert to previous commit
 `git reset --hard <commit>`
