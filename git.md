@@ -74,4 +74,5 @@ or
 git rm -r --cached <filename>
 git add -u
 ~~~
+
 Commit, pull, then push to remote.

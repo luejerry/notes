@@ -47,3 +47,13 @@ up, down, or right of the current split.
 
 ## Shell commands
 *   `:! bash` Run shell command 
+
+## Other settings
+Line numbers
+* `set number`
+* `set nonumber`
+
+Line ending style
+* `set ff?` Query line ending style for current document
+* `set ff=dos` Use CRLF line endings
+* `set ff=unix` Use LF line endings
