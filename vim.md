@@ -45,6 +45,16 @@
 Press `Ctrl-w` to enter split select mode, then use `hjkl` to select the left,
 up, down, or right of the current split.
 
+## Tabs
+*   `:tabedit {file}` Open file in new tab
+*   `:tabn` Next tab
+*   `:tabp` Previous tab
+*   `:tabclose` Close tab
+
+## File Explorer
+*   `:Explore` Open file explorer in current window
+*   `:Texplore` Open file explorer in new tab
+
 ## Shell commands
 *   `:! bash` Run shell command 
 
