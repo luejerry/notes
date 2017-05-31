@@ -5,16 +5,24 @@
 *   `$` End of line
 *   `w` Start of next word
 *   `e` End of next word
+*   `b` Start of previous word
+*   `{` Previous blank line
+*   `}` Next blank line
 *   `Ctrl-d` Scroll down half a page
 *   `Ctrl-f` Scroll down one page (*also* `PgDn`)
 *   `Ctrl-u` Scroll up half a page
 *   `Ctrl-b` Scroll up one page (*also* `PgUp`)
+*   `10gg` Go to line 10
 
 ## Inserting text
 *   `a` Insert text after cursor
 *   `i` Insert text before cursor
 *   `o` Insert new line below
 *   `O` Insert new line above
+
+### Deleting text (in Insert mode)
+*   `Ctrl-w` Delete previous word
+*   `Ctrl-u` Delete to first word in line
 
 ## Cutting, copying, pasting text
 ### Selecting text
