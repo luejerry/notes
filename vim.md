@@ -14,6 +14,11 @@
 *   `Ctrl-b` Scroll up one page (*also* `PgUp`)
 *   `10gg` Go to line 10
 
+### Searching
+*   `/` Search for pattern
+*   `n` Next match
+*   `N` Previous match
+
 ## Inserting text
 *   `a` Insert text after cursor
 *   `i` Insert text before cursor
@@ -24,6 +29,11 @@
 *   `Ctrl-w` Delete previous word
 *   `Ctrl-u` Delete to first word in line
 
+## Undo/redo
+*   `u` Undo
+*   `Ctrl-r` Redo
+*   `:e!` Revert to last save
+
 ## Cutting, copying, pasting text
 ### Selecting text
 *   `v` Select mode
@@ -31,6 +41,7 @@
 
 ### Cutting text
 *   `dd` Cut line
+*   `10dd` Cut 10 lines
 *   `x` Cut selected text
 
 ### Copying text
@@ -70,6 +81,7 @@ up, down, or right of the current split.
 Line numbers
 * `set number`
 * `set nonumber`
+* `set relativenumber | set rnu` Display relative line numberings
 
 Line ending style
 * `set ff?` Query line ending style for current document
