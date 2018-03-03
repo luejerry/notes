@@ -14,3 +14,13 @@ Press `Ctrl+a` to enter command mode.
   * Pageup/down same as `less`
   * `Esc` to exit
 
+
+# Tmux: another terminal multiplexer
+
+Press `Ctrl+b` to enter command mode.
+
+## Commands
+* `"`: horizontal split
+* `%`: vertical split
+* `o`: switch panes
+* `?`: show keybinds
